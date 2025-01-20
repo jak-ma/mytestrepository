@@ -6,13 +6,13 @@
 
 切换到ssh 根目录 寻找 ssh文件
 
-![屏幕截图 2025-01-19 193443](https://cdn.jsdelivr.net/gh/jak-ma/GraphS@imgs/imgs/20250119223121976.png)
+![屏幕截图 2025-01-19 193443](https://gitee.com/jak-ma/graph-s/raw/master/imgs/20250120130921047.png)
 
 图示即是没有配置过，继续下一步；
 
 ##### 2. 本地设置生成ssh
 
-![屏幕截图 2025-01-19 194022](https://cdn.jsdelivr.net/gh/jak-ma/GraphS@imgs/imgs/20250119223148557.png)
+![屏幕截图 2025-01-19 194022](https://gitee.com/jak-ma/graph-s/raw/master/imgs/20250120132012465.png)
 
 默认一路 回车 到底即可；
 
@@ -22,21 +22,21 @@
 
 `cat id_rsa.pub`  查看
 
-![屏幕截图 2025-01-19 194421](https://cdn.jsdelivr.net/gh/jak-ma/GraphS@imgs/imgs/20250119223203470.png)
+![屏幕截图 2025-01-19 194421](https://gitee.com/jak-ma/graph-s/raw/master/imgs/20250120132041789.png)
 
 ##### 4. 复制公钥进行远程仓库github上的添加
 
-![屏幕截图 2025-01-19 194644](https://cdn.jsdelivr.net/gh/jak-ma/GraphS@imgs/imgs/20250119223217545.png)
+![屏幕截图 2025-01-19 194644](https://gitee.com/jak-ma/graph-s/raw/master/imgs/20250120133054602.png)
 
 ​	新建ssh之后,把刚刚的公钥复制进去保存即可
 
-![屏幕截图 2025-01-19 194846](https://cdn.jsdelivr.net/gh/jak-ma/GraphS@imgs/imgs/20250119223229079.png)
+![屏幕截图 2025-01-19 194846](https://gitee.com/jak-ma/graph-s/raw/master/imgs/20250120133106851.png)
 
 ##### 5. 本地验证是否设置成功
 
 `ssh -T git@github.com`
 
-![屏幕截图 2025-01-19 195308](https://cdn.jsdelivr.net/gh/jak-ma/GraphS@imgs/imgs/20250119223244382.png)
+![屏幕截图 2025-01-19 195308](https://gitee.com/jak-ma/graph-s/raw/master/imgs/20250120133120513.png)
 
 出现类似上图提示即为设置成功
 
@@ -44,7 +44,7 @@
 
 在进行本地验证时，出现下图错误的信息
 
-![屏幕截图 2025-01-19 195508](https://cdn.jsdelivr.net/gh/jak-ma/GraphS@imgs/imgs/20250119223304487.png)
+![屏幕截图 2025-01-19 195508](https://gitee.com/jak-ma/graph-s/raw/master/imgs/20250120133132024.png)
 
 这里给出解决办法之一：
 
@@ -65,7 +65,7 @@
 
 如下图所示：
 
-![屏幕截图 2025-01-19 200108](https://cdn.jsdelivr.net/gh/jak-ma/GraphS@imgs/imgs/20250119223337789.png)
+![屏幕截图 2025-01-19 200108](https://gitee.com/jak-ma/graph-s/raw/master/imgs/20250120133205193.png)
 
 然后在进行验证即可成功！
 
@@ -85,6 +85,6 @@
 
 ##### 8. 一次推送过程测试
 
-![屏幕截图 2025-01-19 202452](https://cdn.jsdelivr.net/gh/jak-ma/GraphS@imgs/imgs/20250119223357570.png)
+![屏幕截图 2025-01-19 202452](https://gitee.com/jak-ma/graph-s/raw/master/imgs/20250120133222902.png)
 
 ​	
